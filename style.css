@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(5, 0, 0);
+    color: white;
+}
+nav{
+    background-color: rgba(33, 33, 33, 0.8);
+    justify-content:space-between;
+    display: flex;
+    align-items:center;
+    padding:15px 30px;
+    border-radius: 15px;
+    position: sticky;
+}
+
+.navLeft {
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    gap:10px;
+
+}
+
+.navRight {
+    display:flex;
+    align-items:center;
+    list-style: none;
+    gap:30px;
+}
+
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+    background: #ff7b2c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition:0.3s;
+    
+}
+
+ul a:hover {
+    background: #ff7b2c;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition:0.3s;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid coral;
+}
+
+.leftBody {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    
+}
+
+.highlight{
+    color:#ff7b2c;
+}
+
+.leftBody h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.line {
+    width:50px;
+    height: 4px;
+    background: #ff7b2c;
+    margin-top: 10px 0;
+}
+
+.center-line {
+    width:200px;
+    background: #ff7b2c;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-image img{
+    width: 300px;
+    height:auto;
+    filter: drop-shadow(0 0 10px rgba(255, 99, 3, 0.8));
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 15px rgba(255, 99, 3, 1.5));
+}
+
+.hero-image {
+    position:absolute;
+    left:40%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+}
+
+.leftBody p {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    max-width: 500px;
+}
+
+.Body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+    gap:50px
+
+}
+
+.rightBody {
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.card {
+    background-color: rgba(255, 99, 3, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    height:50px;
+    width: 75px;
+    text-align: center;
+}
+
+ul  a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
